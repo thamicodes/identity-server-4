@@ -1,0 +1,51 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador do Microsoft (R) Visual C#",
+        "version": "4.1.0.0",
+        "fileVersion": "4.1.0-5.22116.13 (dbffaa4a)",
+        "semanticVersion": "4.1.0",
+        "language": "pt-BR"
+      },
+      "results": [
+        {
+          "ruleId": "CS0542",
+          "level": "error",
+          "message": "\"Config\": nomes de membro não podem ser os mesmos do seu tipo delimitador",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/thamires.silva/Desktop/identity-server-4/Config.cs",
+                "region": {
+                  "startLine": 18,
+                  "startColumn": 28,
+                  "endLine": 18,
+                  "endColumn": 34
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "rules": {
+        "CS0542": {
+          "id": "CS0542",
+          "defaultLevel": "error",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0542)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry",
+              "NotConfigurable"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

@@ -7,13 +7,7 @@ using System.Collections.Generic;
 
 namespace IdentityServer
 {
-    public static class Config
-    {
-        public static IEnumerable<IdentityResource> IdentityResources =>
-            new IdentityResource[]
-            { 
-                new IdentityResources.OpenId()
-            };
+ 
 
        public static class Config
 {
@@ -22,7 +16,11 @@ namespace IdentityServer
         {
             new ApiScope("api1", "My API")
         };
-}
+    public static IEnumerable<IdentityResource> IdentityResources =>
+            new IdentityResource[]
+            { 
+                new IdentityResources.OpenId()
+            };
 
         public static IEnumerable<Client> Clients =>
     new List<Client>
