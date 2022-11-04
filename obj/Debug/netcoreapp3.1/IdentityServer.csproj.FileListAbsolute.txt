@@ -1,0 +1,6 @@
+/Users/thamiresgomessilva/Documents/Repositorios/identity-server-4/IdentityServer/obj/Debug/netcoreapp3.1/IdentityServer.csproj.AssemblyReference.cache
+/Users/thamiresgomessilva/Documents/Repositorios/identity-server-4/IdentityServer/obj/Debug/netcoreapp3.1/IdentityServer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/thamiresgomessilva/Documents/Repositorios/identity-server-4/IdentityServer/obj/Debug/netcoreapp3.1/IdentityServer.AssemblyInfoInputs.cache
+/Users/thamiresgomessilva/Documents/Repositorios/identity-server-4/IdentityServer/obj/Debug/netcoreapp3.1/IdentityServer.AssemblyInfo.cs
+/Users/thamiresgomessilva/Documents/Repositorios/identity-server-4/IdentityServer/obj/Debug/netcoreapp3.1/IdentityServer.csproj.CoreCompileInputs.cache
+/Users/thamiresgomessilva/Documents/Repositorios/identity-server-4/IdentityServer/obj/Debug/netcoreapp3.1/IdentityServer.MvcApplicationPartsAssemblyInfo.cache
